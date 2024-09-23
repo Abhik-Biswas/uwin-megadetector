@@ -62,10 +62,3 @@ To get started with this project, first clone the repository to your local machi
 ![val_batch2_labels](https://github.com/user-attachments/assets/b8350ece-0edc-455b-969d-49f062bfa274)
 
 ![val_batch2_pred](https://github.com/user-attachments/assets/8bd071f8-cecf-495c-87a9-6da1a194f913)
-
-
-
-  6. 
-
-
-
