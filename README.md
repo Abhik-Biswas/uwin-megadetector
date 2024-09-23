@@ -21,6 +21,10 @@ To get started with this project, first clone the repository to your local machi
 
      Supply the Source Directory, the Destination Directory, and the name of the output `json` file. The Megadetector model will run inference on the the images in the directory, and store all the bounding box coordinates 
      which detected the presence of an object with confidence greater than or equal to the set threshold.
+     
+![VID32432-00553](https://github.com/user-attachments/assets/8ac688d9-40c0-4ccd-83d4-14b855fd85ad)
+
+     
 
 ### Segregation into Empty vs. Non-Empty Images
   1. The notebook `Directory Builder.ipynb` helps create a copy of the directory structure (with empty folders) of the source folder in the destination specified.
