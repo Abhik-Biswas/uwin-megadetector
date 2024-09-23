@@ -20,5 +20,9 @@ To get started with this project, first clone the repository to your local machi
      `python -m streamlit run md_app,py`
 
      Supply the Source Directory, the Destination Directory, and the name of the output `json` file. The Megadetector model will run inference on the the images in the directory, and store all the bounding box coordinates 
-     which detected the presence of an object with confidence greater than or equal to the set threshold. 
+     which detected the presence of an object with confidence greater than or equal to the set threshold.
+
+### Segregation into Empty vs. Non-Empty Images
+  1. The notebook `Directory Builder.ipynb` helps create a copy of the directory structure (with empty folders) of the source folder in the destination specified.
+  2. Once the folder is created, open the `Empty Vs Non Empty.ipynb` notebook. Modify the file path of the `json` file, the source folder and the destination folder, and execute the cell. This would create two sub-directories - `empty_images` and `non_empty_images`, where the segregated images would be stored. 
 
