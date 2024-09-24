@@ -31,7 +31,7 @@ To get started with this project, first clone the repository to your local machi
   2. Once the folder is created, open the `Empty Vs Non Empty.ipynb` notebook. Modify the file path of the `json` file, the source folder and the destination folder, and execute the cell. This would create two sub- 
      directories - `empty_images` and `non_empty_images`, where the segregated images would be stored.
 
-### Creating the data
+### YOLOv5
   1. The data creation process, to be fed into the YOLOv5 model is outlined here: https://docs.ultralytics.com/yolov5/tutorials/train_custom_data/#23-organize-directories
 
      This process has been closely mimicked, and the dataset has been created using the contents in the notebook: `^YOLO-Data-Creation.*\.ipynb`
