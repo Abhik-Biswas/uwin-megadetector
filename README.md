@@ -17,7 +17,7 @@ To get started with this project, first clone the repository to your local machi
 
   3. Then run the following script:
 
-     `python -m streamlit run md_app,py`
+     `python -m streamlit run md_app.py`
 
      Supply the Source Directory, the Destination Directory, and the name of the output `json` file. The Megadetector model will run inference on the the images in the directory, and store all the bounding box coordinates 
      which detected the presence of an object with confidence greater than or equal to the set threshold.
